@@ -14,11 +14,11 @@ def join_nested_strings(src)
          results_array << src[row][column]
        end
          
-       
        column += 1
      end
      
      row += 1
   end
-  results_array
+  
+  results_array.join(" ")
 end
