@@ -10,7 +10,10 @@ def join_nested_strings(src)
      column = 0
      while column < src[row].length do
        
-       
+       if (src[row][column].class == String)
+         results_array << src[row][column]
+       end
+         
        
        column += 1
      end
